@@ -1,0 +1,20 @@
+{
+  "name": "jekyll-cli",
+  "description": "CLI for Jekyll by NodeJS",
+  "version": "0.1.0",
+  "dependencies": {
+    "colors": "*",
+    "commander": "*",
+    "han": "*",
+    "js-yaml": "*",
+    "mkdirp": "*",
+    "strftime": "*"
+  },
+  "author": {
+    "name": "junjun.zhang",
+    "email": "i@mrzhang.me"
+  },
+  "bin": {
+    "j": "bin/jekyll.js"
+  }
+}
