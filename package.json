@@ -10,6 +10,10 @@
     "mkdirp": "*",
     "strftime": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsw0528/jekyll-cli.git"
+  },
   "author": {
     "name": "junjun.zhang",
     "email": "i@mrzhang.me"
