@@ -13,12 +13,18 @@ var path = function(file) {
 jekyll
   .command('new <app>')
   .description('Create a new Jekyll application')
+  .option('--no-bundle', 'Don\'t run bundle install')
   .action(require(path('new')))
 
 jekyll
   .command('post <title>')
-  .description('Create a new Markdown file into _posts/')
+  .description('Create a new Markdown file to _posts/')
   .action(require(path('post')))
+
+jekyll
+  .command('watch')
+  .description('Watch the changes')
+  .action(require(path('watch')))
 
 jekyll
   .command('git')
