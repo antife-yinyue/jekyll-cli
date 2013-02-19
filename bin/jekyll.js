@@ -11,7 +11,7 @@ var path = function(file) {
 }
 
 jekyll
-  .command('new <app>')
+  .command('new <path>')
   .description('Create a new Jekyll application')
   .option('--no-bundle', 'Don\'t run bundle install')
   .action(require(path('new')))
