@@ -6,9 +6,7 @@
 
 var jekyll = require('commander')
 var join = require('path').join
-var path = function(file) {
-  return join(__dirname, '../lib', file)
-}
+var path = function(file) { return join('../lib', file) }
 
 jekyll
   .command('new <path>')
@@ -27,16 +25,23 @@ jekyll
   .action(require(path('watch')))
 
 jekyll
+  .command('sass')
+  .description('Compile Sass stylesheets')
+  .option('--watch', 'Auto compile when Sass stylesheets change')
+  .action(require(path('sass')))
+
+jekyll
   .command('git')
   .description('Setup git repository')
   .action(require(path('git')))
 
 jekyll
-  .command('deploy [message]')
+  .command('deploy')
   .description('Deploy to GitHub')
+  .option('-m <msg>', 'Use the given <msg> as the commit message.', ':u7121:')
   .action(require(path('deploy')))
 
-jekyll.usage('<command>').parse(process.argv)
+jekyll.parse(process.argv)
 
 if (!jekyll.args.length) {
   jekyll.help()

@@ -8,7 +8,9 @@
     "han": "*",
     "js-yaml": "*",
     "mkdirp": "*",
-    "strftime": "*"
+    "send": "*",
+    "strftime": "*",
+    "watchr": "*"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,6 @@
     "email": "i@mrzhang.me"
   },
   "bin": {
-    "j": "bin/jekyll.js"
+    "j": "bin/jekyll"
   }
 }
