@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-/*jshint node:true, asi:true */
+/*jshint node:true, asi:true, expr:true */
 
 'use strict';
 
