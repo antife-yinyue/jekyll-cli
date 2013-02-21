@@ -3,6 +3,7 @@
   "description": "CLI for Jekyll by NodeJS",
   "version": "0.1.0",
   "dependencies": {
+    "async": "*",
     "colors": "*",
     "commander": "*",
     "han": "*",
