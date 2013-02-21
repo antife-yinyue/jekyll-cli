@@ -12,6 +12,11 @@
     "strftime": "*",
     "watchr": "*"
   },
+  "keywords": [
+    "watch",
+    "generate",
+    "deploy"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jsw0528/jekyll-cli.git"
