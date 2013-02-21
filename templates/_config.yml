@@ -1,0 +1,53 @@
+# ---------------------- #
+#      Site Configs      #
+# ---------------------- #
+
+title: My Blog
+permalink: /blog/:title.html
+paginate: 10
+paginate_path: /blog/page/:num
+datetime_format: '%Y-%m-%d %H:%M'
+# default_layout: default
+
+
+# ---------------------- #
+#         Jekyll         #
+# ---------------------- #
+
+safe: true
+markdown: redcarpet
+exclude: ['Gemfile', 'Gemfile.lock']
+# destination: _site
+# server_port: 4000
+
+
+# ---------------------- #
+#      Compile Sass      #
+# ---------------------- #
+
+# run `compass help compile` in terminal to find more options
+compile:
+  no_line_comments: true
+  # css_dir: stylesheets
+  # output_style: expanded
+
+
+# ---------------------- #
+#       Deployment       #
+# ---------------------- #
+
+deploy:
+  repository:
+  branch:
+
+
+# ---------------------- #
+#    Social Networks     #
+# ---------------------- #
+
+# weibo:
+#   username:
+#   uid:
+#   appkey:
+
+# disqus:
