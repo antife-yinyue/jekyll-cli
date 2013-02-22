@@ -7,7 +7,7 @@ permalink: /blog/:title.html
 paginate: 10
 paginate_path: /page/:num
 datetime_format: '%Y-%m-%d %H:%M'
-# default_layout: default
+default_layout: default
 
 
 # ---------------------- #
@@ -25,9 +25,10 @@ exclude: ['Gemfile', 'Gemfile.lock']
 #      Compile Sass      #
 # ---------------------- #
 
-# run `compass help compile` in terminal to find more options
+# run `compass help compile` in terminal to find more available options
 compile:
   no_line_comments: true
+  sass_dir: _sass
   # css_dir: stylesheets
   # output_style: expanded
 
