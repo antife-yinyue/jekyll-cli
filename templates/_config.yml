@@ -3,11 +3,10 @@
 # ---------------------- #
 
 title: My Blog
+url: http://my-blog.com
 permalink: /blog/:title.html
 paginate: 10
 paginate_path: /page/:num
-datetime_format: '%Y-%m-%d %H:%M'
-default_layout: default
 
 
 # ---------------------- #
