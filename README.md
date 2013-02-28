@@ -1,7 +1,7 @@
 ## Installation
 
 ```bash
-$ npm install jekyll-cli -g
+$ npm install -g jekyll-cli
 ```
 
 ## Commands
@@ -12,11 +12,12 @@ $ j --help
 
 ```bash
   new <path> [--no-bundle]      # Create a new Jekyll application
-                                ## --no-bundle: Don't run bundle install
+                                ## --no-bundle: Do not run bundle install
 
   post <title>                  # Create a new Markdown file to _posts/
 
-  watch                         # Watch the changes
+  watch [--open]                # Watch the changes
+                                ## --open: Open the website using your default browser
 
   sass [--watch]                # Compile Sass stylesheets
                                 ## --watch: Auto compile when Sass stylesheets change
