@@ -3,11 +3,22 @@ layout: default
 title: Home Page
 ---
 
-<ul>
-  {% for post in paginator.posts %}
-  <li>
-    <span>[{{ post.date }}]</span>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+{% for post in paginator.posts %}
+<article class="entry" id="{{ post.id }}">
+  <header>
+    <h1 class="entry-title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    <p class="entry-meta">
+      <time>{{ post.date | date: '%Y/%m/%d %A' }}</time>
+    </p>
+  </header>
+
+  {% assign fragments = post.content | split: '<!-- more -->' %}
+  {% assign size = fragments | size %}
+
+  {{ fragments | first }}
+
+  {% if size > 1 %}<p><a href="{{ post.url }}">继续阅读 &rarr;</a></p>{% endif %}
+</article>
+{% endfor %}

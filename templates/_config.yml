@@ -29,7 +29,7 @@ compile:
   no_line_comments: true
   sass_dir: _sass
   # css_dir: stylesheets
-  # output_style: expanded
+  # output_style: compressed
 
 
 # ---------------------- #
@@ -50,4 +50,6 @@ deploy:
 #   uid:
 #   appkey:
 
-# disqus:
+# duoshuo:
+
+# google_analytics:
