@@ -1,6 +1,6 @@
 {
   "name": "jekyll-cli",
-  "preferGlobal", true,
+  "preferGlobal": true,
   "description": "CLI for Jekyll by NodeJS",
   "version": "0.2.3",
   "dependencies": {
