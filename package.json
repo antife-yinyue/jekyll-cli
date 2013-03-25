@@ -1,7 +1,8 @@
 {
   "name": "jekyll-cli",
+  "preferGlobal", true,
   "description": "CLI for Jekyll by NodeJS",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "dependencies": {
     "async": "*",
     "colors": "*",
@@ -28,5 +29,6 @@
   },
   "bin": {
     "j": "bin/jekyll"
-  }
+  },
+  "license": "MIT"
 }
