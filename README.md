@@ -30,8 +30,8 @@ $ j --help
 
 ## Recommended
 
-- [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages)
-- [Usage of Jekyll](https://github.com/mojombo/jekyll/wiki/Usage)
+- [Using Jekyll with GitHub Pages](http://mrzhang.me/blog/using-jekyll-with-github-pages.html)
+- [Jekyll Documents](https://github.com/mojombo/jekyll#readme)
 - [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 - [Liquid Extensions in Jekyll](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
 
