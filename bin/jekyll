@@ -6,29 +6,33 @@
 
 var jekyll = require('commander')
 var join = require('path').join
-var path = function(file) { return join('../lib', file) }
+var path = function(file) { return join('..', 'lib', file) }
 
 jekyll
-  .command('new <path>')
+  .command('new <PATH>')
   .description('Creates a new Jekyll site scaffold in PATH')
-  .option('--no-bundle', 'Do not run bundle install')
+  .option('-B, --no-bundle', 'Do not run bundle install')
   .action(require(path('new')))
 
 jekyll
-  .command('post <title>')
-  .description('Create a new Markdown file to _posts/')
+  .command('post <TITLE>')
+  .description('Create a new post')
+  .option('-d, --drafts', 'As a draft')
+  .option('--ext <NAME>', 'Specify the extension name (Defaults to md)', 'md')
   .action(require(path('post')))
 
 jekyll
   .command('watch')
   .description('Watch the changes locally')
-  .option('--open', 'Open the website using your default browser')
+  .option('-o, --open', 'Open the website using your default browser')
+  .option('-p, --port <PORT>', 'Port to listen on')
+  .option('-D, --no-drafts', 'Excludes the drafts')
   .action(require(path('watch')))
 
 jekyll
   .command('sass')
   .description('Compile Sass stylesheets')
-  .option('--watch', 'Auto compile when Sass stylesheets change')
+  .option('-w, --watch', 'Auto compile when Sass stylesheets change')
   .action(require(path('sass')))
 
 jekyll
@@ -39,7 +43,7 @@ jekyll
 jekyll
   .command('deploy')
   .description('Deploy to GitHub')
-  .option('-m <msg>', 'Use the given <msg> as the commit message.', ':u7121:')
+  .option('-m <MESSAGE>', 'Use the given MESSAGE as the commit message.', ':u7121:')
   .action(require(path('deploy')))
 
 jekyll.parse(process.argv)

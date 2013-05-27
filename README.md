@@ -7,25 +7,28 @@ $ npm install -g jekyll-cli
 ## Commands
 
 ```bash
-$ j --help
+$ j new [options] <PATH>    Creates a new Jekyll site scaffold in PATH
+$ j post [options] <TITLE>  Create a new post
+$ j watch [options]         Watch the changes locally
+$ j sass [options]          Compile Sass stylesheets
+$ j git                     Setup git repository
+$ j deploy [options]        Deploy to GitHub
 ```
 
+__Display command help documentation__
+
 ```bash
-  new <path> [--no-bundle]      # Creates a new Jekyll site scaffold in PATH
-                                ## --no-bundle: Do not run bundle install
+$ j post -h
+```
 
-  post <title>                  # Create a new Markdown file to _posts/
+```
+  Usage: post [options] <TITLE>
 
-  watch [--open]                # Watch the changes locally
-                                ## --open: Open the website using your default browser
+  Options:
 
-  sass [--watch]                # Compile Sass stylesheets
-                                ## --watch: Auto compile when Sass stylesheets change
-
-  git                           # Setup git repository
-
-  deploy [-m <msg>]             # Deploy to GitHub
-                                ## -m: Use the given <msg> as the commit message.
+    -h, --help    output usage information
+    -d, --drafts  As a draft
+    --ext <NAME>  Specify the extension name (Defaults to md)
 ```
 
 ## Recommended
