@@ -16,7 +16,7 @@ $ j --help
 
   post <title>                  # Create a new Markdown file to _posts/
 
-  watch [--open]                # Watch the changes
+  watch [--open]                # Watch the changes locally
                                 ## --open: Open the website using your default browser
 
   sass [--watch]                # Compile Sass stylesheets

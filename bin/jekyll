@@ -21,7 +21,7 @@ jekyll
 
 jekyll
   .command('watch')
-  .description('Watch the changes')
+  .description('Watch the changes locally')
   .option('--open', 'Open the website using your default browser')
   .action(require(path('watch')))
 
