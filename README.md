@@ -34,9 +34,9 @@ $ j post -h
 ## Recommended
 
 - [Using Jekyll with GitHub Pages](http://mrzhang.me/blog/using-jekyll-with-github-pages.html)
-- [Jekyll Documents](https://github.com/mojombo/jekyll#readme)
+- [Jekyll Documents](http://jekyllrb.com/)
 - [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- [Liquid Extensions in Jekyll](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
+- [Liquid Extensions in Jekyll](http://jekyllrb.com/docs/templates/)
 
 ## License
 
