@@ -2,11 +2,12 @@
 #      Site Configs      #
 # ---------------------- #
 
-title: My Blog
+name: My Blog
 url: http://my-blog.com
 permalink: /blog/:title.html
 paginate: 10
 paginate_path: /page/:num
+excerpt_separator: '<!-- more -->'
 
 
 # ---------------------- #
@@ -16,8 +17,8 @@ paginate_path: /page/:num
 safe: true
 markdown: redcarpet
 exclude: ['Gemfile', 'Gemfile.lock']
-# destination: _site
-# server_port: 4000
+relative_permalinks: true
+timezone: Asia/Shanghai
 
 
 # ---------------------- #
@@ -25,11 +26,10 @@ exclude: ['Gemfile', 'Gemfile.lock']
 # ---------------------- #
 
 # run `compass help compile` in terminal to find more available options
-compile:
+sass:
   no_line_comments: true
   sass_dir: _sass
-  # css_dir: stylesheets
-  # output_style: compressed
+  output_style: compressed
 
 
 # ---------------------- #
