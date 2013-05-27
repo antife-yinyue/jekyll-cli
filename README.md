@@ -11,7 +11,7 @@ $ j --help
 ```
 
 ```bash
-  new <path> [--no-bundle]      # Create a new Jekyll application
+  new <path> [--no-bundle]      # Creates a new Jekyll site scaffold in PATH
                                 ## --no-bundle: Do not run bundle install
 
   post <title>                  # Create a new Markdown file to _posts/
