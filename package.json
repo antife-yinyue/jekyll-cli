@@ -2,17 +2,17 @@
   "name": "jekyll-cli",
   "preferGlobal": true,
   "description": "CLI for Jekyll by NodeJS",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "dependencies": {
-    "async": "~> 0.2",
-    "colors": ">= 0.6",
-    "commander": "~> 1.1",
-    "han": ">= 0.0.6",
-    "js-yaml": "~> 2.0",
-    "mkdirp": "~> 0.3",
-    "send": ">= 0.1",
-    "strftime": ">= 0.6",
-    "watchr": "~> 2.4"
+    "async": "*",
+    "colors": "*",
+    "commander": "*",
+    "han": "*",
+    "js-yaml": "*",
+    "mkdirp": "*",
+    "send": "*",
+    "strftime": "*",
+    "watchr": "2.x"
   },
   "keywords": [
     "watch",
