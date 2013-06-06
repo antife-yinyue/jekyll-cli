@@ -5,7 +5,7 @@
 name: My Blog
 url: http://my-blog.com
 permalink: /blog/:title.html
-paginate: 10
+paginate: 5
 paginate_path: /page/:num
 excerpt_separator: '<!-- more -->'
 
@@ -17,7 +17,6 @@ excerpt_separator: '<!-- more -->'
 safe: true
 markdown: redcarpet
 exclude: ['Gemfile', 'Gemfile.lock']
-relative_permalinks: true
 timezone: Asia/Shanghai
 
 
