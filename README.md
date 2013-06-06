@@ -4,6 +4,12 @@
 $ npm install -g jekyll-cli
 ```
 
+## Getting Started
+
+- [Using Jekyll with GitHub Pages](http://mrzhang.me/blog/using-jekyll-with-github-pages.html)
+- [Jekyll Documents](http://jekyllrb.com/)
+- [Standard Liquid tags and filters](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+
 ## Commands
 
 ```bash
@@ -30,13 +36,6 @@ $ j post -h
     -d, --drafts  As a draft
     --ext <NAME>  Specify the extension name (Defaults to md)
 ```
-
-## Recommended
-
-- [Using Jekyll with GitHub Pages](http://mrzhang.me/blog/using-jekyll-with-github-pages.html)
-- [Jekyll Documents](http://jekyllrb.com/)
-- [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- [Liquid Extensions in Jekyll](http://jekyllrb.com/docs/templates/)
 
 ## License
 
