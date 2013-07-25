@@ -13,18 +13,18 @@ $ npm install -g jekyll-cli
 ## Commands
 
 ```bash
-$ j new [options] <PATH>    Creates a new Jekyll site scaffold in PATH
-$ j post [options] <TITLE>  Create a new post
-$ j watch [options]         Watch the changes locally
-$ j sass [options]          Compile Sass stylesheets
-$ j git                     Setup git repository
-$ j deploy [options]        Deploy to GitHub
+$ jkl new [options] <PATH>    Creates a new Jekyll site scaffold in PATH
+$ jkl post [options] <TITLE>  Create a new post
+$ jkl watch [options]         Watch the changes locally
+$ jkl sass [options]          Compile Sass stylesheets
+$ jkl git                     Setup git repository
+$ jkl deploy [options]        Deploy to GitHub
 ```
 
 __Display command help documentation__
 
 ```bash
-$ j post -h
+$ jkl post -h
 ```
 
 ```
