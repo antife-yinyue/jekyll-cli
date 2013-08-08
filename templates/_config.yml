@@ -4,9 +4,9 @@
 
 name: My Blog
 url: http://my-blog.com
-permalink: /blog/:title.html
+permalink: blog/:title.html
 paginate: 5
-paginate_path: /page/:num
+paginate_path: page/:num
 excerpt_separator: '<!-- more -->'
 
 
@@ -26,9 +26,9 @@ timezone: Asia/Shanghai
 
 # run `compass help compile` in terminal to find more available options
 sass:
-  no_line_comments: true
   sass_dir: _sass
-  output_style: compressed
+  debug_info: true
+  # output_style: compressed
 
 
 # ---------------------- #
