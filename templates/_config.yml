@@ -6,7 +6,7 @@ name: My Blog
 url: http://my-blog.com
 permalink: blog/:title.html
 paginate: 5
-paginate_path: page/:num
+paginate_path: /page/:num
 excerpt_separator: '<!-- more -->'
 
 
