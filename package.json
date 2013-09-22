@@ -2,7 +2,7 @@
   "name": "jekyll-cli",
   "preferGlobal": true,
   "description": "CLI for Jekyll by NodeJS",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "dependencies": {
     "async": "*",
     "colors": "*",
