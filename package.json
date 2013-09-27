@@ -4,15 +4,15 @@
   "description": "CLI for Jekyll by NodeJS",
   "version": "0.3.7",
   "dependencies": {
-    "async": "*",
-    "colors": "*",
-    "commander": "1.x",
-    "han": "*",
-    "js-yaml": "*",
-    "mkdirp": "*",
-    "send": "*",
-    "strftime": "*",
-    "watchr": "2.x"
+    "async": "0.2.9",
+    "colors": "0.6.2",
+    "commander": "1.3.2",
+    "han": "0.0.7",
+    "js-yaml": "2.1.0",
+    "mkdirp": "0.3.5",
+    "send": "0.1.4",
+    "strftime": "0.6.2",
+    "watchr": "2.3.3"
   },
   "keywords": [
     "watch",
