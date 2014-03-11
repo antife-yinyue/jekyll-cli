@@ -19,6 +19,7 @@ jkl
   .description('Create a new post')
   .option('-d, --drafts', 'As a draft')
   .option('--ext <NAME>', 'Specify the extension name (Defaults to md)', 'md')
+  .option('-p, --pinyin', 'Change Chinese into pinyin')
   .action(require(path('post')))
 
 jkl
@@ -48,6 +49,6 @@ jkl
 
 jkl.parse(process.argv)
 
-if (!jkl.args.length) {
+if (jkl.rawArgs.length == 2) {
   jkl.help()
 }
