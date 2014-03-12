@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/jsw0528/jekyll-cli.png)](https://codeclimate.com/github/jsw0528/jekyll-cli)
+[![Dependencies](https://david-dm.org/jsw0528/jekyll-cli.png)](https://david-dm.org/jsw0528/jekyll-cli)
+[![NPM version](https://badge.fury.io/js/jekyll-cli.png)](http://badge.fury.io/js/jekyll-cli)
+
 ## Installation
 
 ```bash
